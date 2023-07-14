@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Roboto+Slab:wght@300;400;700&display=swap');
+
+/* 
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto Slab', serif; 
+*/
+
+h2,h3,p{
+    font-weight: 300;
+    color: rgb(8, 8, 8);
+    font-style: normal;
+    
+}
+h2,h3{
+    font-family: 'Open Sans', sans-serif;
+
+}
+p{
+    font-family: 'Roboto Slab', serif;
+    font-size: 1rem;
+}
+
+/*   mission style section */
+h2{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+h3{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+#mission {
+    padding: 100px;
+    background-color: rgb(228, 210, 157);
+    background-image: -webkit-linear-gradient(270deg,  rgb(238, 240, 138)  0%,  rgb(129, 154, 45) 100%);
+    background-image: -moz-linear-gradient(270deg,  rgb(238, 240, 138)  0%,  rgb(129, 154, 45) 100%);
+    background-image: -o-linear-gradient(270deg,  rgb(238, 240, 138)  0%,  rgb(129, 154, 45) 100%);
+    background-image: linear-gradient(180deg,  rgb(238, 240, 138)  0%,  rgb(129, 154, 45) 100%);
+    border-top: 20px solid rgb(238,200, 86, .5);
+}
+
+/*   navbar style section */
+.navbar .navbar-nav .nav-item .nav-link{
+    font-family: 'Roboto Slab', serif;
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    text-shadow: 3px 3px /*blur*/3px rgb(46, 52, 27);
+    
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    color: rgb(255, 255, 255);
+}
+.navbar .navbar-nav .nav-item .nav-link.active{
+    color: rgb(183, 183, 183);
+    border-bottom: 2px solid rgb(66, 83, 29);
+}
+.navbar .navbar-nav .nav-item .nav-link.active:hover{
+    color: rgb(155, 183, 93);
+}
+
+/*   nav bar brand style section */
+
+.navbar-brand{
+    background-image: url(../images/wisdompetlogo.svg);
+    background-repeat: no-repeat;
+    padding-left: 100px;
+    color: rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.8rem;
+    display: block;
+}
+.subhead{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+    display: block;
+}
+.navbar-brand:hover{
+    color: rgb(240, 248, 255);
+}
+
+/*   mission style section */
+
+#services {
+    padding: 30px;
+}
+#services img {
+	max-width: 80px;
+}
+article {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+/*  Staff style section */
+
+#staff img {
+	max-width: 100%;
+    border-radius: 50%;
+ 
+}
+#staff h3{
+    color: rgb(111,78,54);
+    font-weight: 700;
+}
+#staff {
+    background-color: rgb(228,210,157);
+    padding: 30px;
+    background-image: -webkit-linear-gradient(270deg,  rgb(228,210,157)0%, rgb(205,174,80)  100%);
+    background-image: -moz-linear-gradient(270deg,  rgb(228,210,157)0%, rgb(205,174,80)  100%);
+    background-image: -o-linear-gradient(270deg,  rgb(228,210,157)0%, rgb(205,174,80)  100%);
+    background-image: linear-gradient(180deg,  rgb(228,210,157)0%, rgb(205,174,80)  100%);
+}
+
+.doctor{
+    margin-bottom: 30px;
+}
+
+/*  testimonials style section */
+
+#janeh,#mcphersons,#johnb,#lorraines{
+    background-position: center;
+    background-size: cover;
+}
+#janeh {
+    background-image: url(../images/testimonial-janeh.jpg);
+}
+#mcphersons {
+    background-image: url(../images/testimonial-mcphersons.jpg);
+}
+#johnb {
+    background-image: url(../images/testimonial-johnb.jpg);
+
+}
+#lorraines {
+    background-image: url(../images/testimonial-lorraines.jpg);
+ 
+}
+
+blockquote{
+    min-height: 500px;
+    position: relative;
+    margin-bottom: 0;
+}
+
+.quote {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(244, 250, 255, 0.62);
+    width: 65%;
+    padding: 10px;
+    border-radius: 0 30px 0 0;
+    padding: 10px;
+}
+
+.intro{
+    font-family: 'Roboto Slab', serif;
+    color: rgb(8, 8, 8);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1rem;
+    display: block;
+    line-height: 135%
+}
+.more{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(8, 8, 8);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0rem;
+    display: block;
+    line-height: 135%;
+    
+}
+#testimonials h2, .customer{
+    display: none;
+}
+
+.quote:hover {
+    background-color: rgb(228,210,157);
+}
+.quote:hover .more {
+    font-size: 1rem;
+}
+.intro::after {
+    content: "...."
+}
+.quote:hover .intro::after{
+    content: "";
+}
+
+/*  footer style section */
+footer {
+     background-color: rgb(95, 134, 180);
+     padding: 20px 0;
+}
+footer p{
+    margin-bottom: 0;
+}
+footer, footer p{
+
+    color: rgb(239, 239, 239);
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+.phone {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: rgb(193, 198, 81);
+}
+footer p a {
+    color: rgb(209, 203, 37);
+    text-decoration: none;
+}
+footer p a:hover{
+    color: rgb(155, 183, 93);
+}
